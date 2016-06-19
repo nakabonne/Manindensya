@@ -19,8 +19,9 @@ public class PlayerScript : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.UpArrow)) {
 			animator.SetBool ("Attack2", false);
 		}
-	//上の二つは後でスマホ用に変更する
+	//上のは二つは今んところいらない
 	}
 
 
 }
+//てかこのスクリプト使ってない

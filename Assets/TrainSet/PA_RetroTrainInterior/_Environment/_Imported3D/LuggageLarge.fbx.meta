@@ -1,0 +1,106 @@
+fileFormatVersion: 2
+guid: 48c6546a99550fb409ac409d3b8faefe
+timeCreated: 1460906427
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Lid
+    100002: //RootNode
+    100004: LuggageLargeCaseLeatherDetailsLid
+    100006: LuggageLargeCaseLeatherDetailsMain
+    100008: LuggageLargeCaseLid
+    100010: LuggageLargeCaseMain
+    100012: LuggageLargeCaseMetalDetailsLid
+    100014: LuggageLargeCaseMetalDetailsMain
+    400000: Lid
+    400002: //RootNode
+    400004: LuggageLargeCaseLeatherDetailsLid
+    400006: LuggageLargeCaseLeatherDetailsMain
+    400008: LuggageLargeCaseLid
+    400010: LuggageLargeCaseMain
+    400012: LuggageLargeCaseMetalDetailsLid
+    400014: LuggageLargeCaseMetalDetailsMain
+    2300000: LuggageLargeCaseLeatherDetailsLid
+    2300002: LuggageLargeCaseLeatherDetailsMain
+    2300004: LuggageLargeCaseLid
+    2300006: LuggageLargeCaseMain
+    2300008: LuggageLargeCaseMetalDetailsLid
+    2300010: LuggageLargeCaseMetalDetailsMain
+    3300000: LuggageLargeCaseLeatherDetailsLid
+    3300002: LuggageLargeCaseLeatherDetailsMain
+    3300004: LuggageLargeCaseLid
+    3300006: LuggageLargeCaseMain
+    3300008: LuggageLargeCaseMetalDetailsLid
+    3300010: LuggageLargeCaseMetalDetailsMain
+    4300000: LuggageLargeCaseMain
+    4300002: LuggageLargeCaseMetalDetailsMain
+    4300004: LuggageLargeCaseLeatherDetailsMain
+    4300006: LuggageLargeCaseLeatherDetailsLid
+    4300008: LuggageLargeCaseLid
+    4300010: LuggageLargeCaseMetalDetailsLid
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

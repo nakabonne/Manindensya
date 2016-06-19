@@ -22,7 +22,7 @@ public class EnemyScript : MonoBehaviour
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.tag == "sumaho")
+		if (other.gameObject.tag == "sentan")
 		{
 			enemyHP -= 1;
 			Instantiate (spark, transform.position, Quaternion.identity);

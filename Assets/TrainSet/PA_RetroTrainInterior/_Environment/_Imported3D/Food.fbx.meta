@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 0765f99639ebf1f46922af7ff4d68894
+timeCreated: 1460909995
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AppleBottom
+    100002: AppleFruit
+    100004: AppleObject
+    100006: AppleStem
+    100008: BurgerBunBottom
+    100010: BurgerBunBottomObject
+    100012: BurgerBunTop
+    100014: BurgerBunTopObject
+    100016: BurgerBunTopSeeds
+    100018: BurgerBurger
+    100020: BurgerObject
+    100022: BurgerpolyCheese
+    100024: BurgerTomato1
+    100026: BurgerTomato2
+    100028: BurgerTomato3
+    100030: BurgerTomatoMain1
+    100032: BurgerTomatoMain2
+    100034: BurgerTomatoMain3
+    100036: BurgerTomatoSeeds1
+    100038: BurgerTomatoSeeds2
+    100040: BurgerTomatoSeeds3
+    100042: CoffeeCup
+    100044: CoffeeLid
+    100046: CoffeeLiquid
+    100048: CoffeeObject
+    100050: FlaskBody
+    100052: FlaskCap
+    100054: FlaskLid
+    100056: FlaskLidMetal
+    100058: FlaskLidPlastic
+    100060: FlaskLiquid
+    100062: FlaskObject
+    100064: FlaskStopper
+    100066: //RootNode
+    400000: AppleBottom
+    400002: AppleFruit
+    400004: AppleObject
+    400006: AppleStem
+    400008: BurgerBunBottom
+    400010: BurgerBunBottomObject
+    400012: BurgerBunTop
+    400014: BurgerBunTopObject
+    400016: BurgerBunTopSeeds
+    400018: BurgerBurger
+    400020: BurgerObject
+    400022: BurgerpolyCheese
+    400024: BurgerTomato1
+    400026: BurgerTomato2
+    400028: BurgerTomato3
+    400030: BurgerTomatoMain1
+    400032: BurgerTomatoMain2
+    400034: BurgerTomatoMain3
+    400036: BurgerTomatoSeeds1
+    400038: BurgerTomatoSeeds2
+    400040: BurgerTomatoSeeds3
+    400042: CoffeeCup
+    400044: CoffeeLid
+    400046: CoffeeLiquid
+    400048: CoffeeObject
+    400050: FlaskBody
+    400052: FlaskCap
+    400054: FlaskLid
+    400056: FlaskLidMetal
+    400058: FlaskLidPlastic
+    400060: FlaskLiquid
+    400062: FlaskObject
+    400064: FlaskStopper
+    400066: //RootNode
+    2300000: AppleBottom
+    2300002: AppleFruit
+    2300004: AppleStem
+    2300006: BurgerBunBottom
+    2300008: BurgerBunTop
+    2300010: BurgerBunTopSeeds
+    2300012: BurgerBurger
+    2300014: BurgerpolyCheese
+    2300016: BurgerTomatoMain1
+    2300018: BurgerTomatoMain2
+    2300020: BurgerTomatoMain3
+    2300022: BurgerTomatoSeeds1
+    2300024: BurgerTomatoSeeds2
+    2300026: BurgerTomatoSeeds3
+    2300028: CoffeeCup
+    2300030: CoffeeLid
+    2300032: CoffeeLiquid
+    2300034: FlaskBody
+    2300036: FlaskCap
+    2300038: FlaskLidMetal
+    2300040: FlaskLidPlastic
+    2300042: FlaskLiquid
+    2300044: FlaskStopper
+    3300000: AppleBottom
+    3300002: AppleFruit
+    3300004: AppleStem
+    3300006: BurgerBunBottom
+    3300008: BurgerBunTop
+    3300010: BurgerBunTopSeeds
+    3300012: BurgerBurger
+    3300014: BurgerpolyCheese
+    3300016: BurgerTomatoMain1
+    3300018: BurgerTomatoMain2
+    3300020: BurgerTomatoMain3
+    3300022: BurgerTomatoSeeds1
+    3300024: BurgerTomatoSeeds2
+    3300026: BurgerTomatoSeeds3
+    3300028: CoffeeCup
+    3300030: CoffeeLid
+    3300032: CoffeeLiquid
+    3300034: FlaskBody
+    3300036: FlaskCap
+    3300038: FlaskLidMetal
+    3300040: FlaskLidPlastic
+    3300042: FlaskLiquid
+    3300044: FlaskStopper
+    4300000: CoffeeLiquid
+    4300002: CoffeeCup
+    4300004: CoffeeLid
+    4300006: FlaskBody
+    4300008: FlaskCap
+    4300010: FlaskStopper
+    4300012: FlaskLiquid
+    4300014: FlaskLidMetal
+    4300016: FlaskLidPlastic
+    4300018: BurgerBunTopSeeds
+    4300020: BurgerBunTop
+    4300022: BurgerBunBottom
+    4300024: BurgerBurger
+    4300026: BurgerpolyCheese
+    4300028: BurgerTomatoSeeds1
+    4300030: BurgerTomatoMain1
+    4300032: BurgerTomatoSeeds2
+    4300034: BurgerTomatoMain2
+    4300036: BurgerTomatoSeeds3
+    4300038: BurgerTomatoMain3
+    4300040: AppleFruit
+    4300042: AppleStem
+    4300044: AppleBottom
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
