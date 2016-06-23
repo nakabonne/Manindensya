@@ -7,6 +7,8 @@ TagManager:
   - sumaho
   - Fire
   - sentan
+  - Player2
+  - EnemySentan
   layers:
   - Default
   - TransparentFX

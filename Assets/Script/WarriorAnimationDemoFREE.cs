@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class WarriorAnimationDemoFREE : MonoBehaviour 
 {
 	public Animator animator;
 	public GameObject sentanL;
 	public GameObject sentanR;
+	public Collider colL;
+	public Collider colR;
 	float rotationSpeed = 30;
+	public int playerHP;
 
 	Vector3 inputVec;
 	Vector3 targetDirection;
@@ -19,13 +23,21 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 	
 	void Start()
 	{
-		sentanL.SetActive (false);
-		sentanR.SetActive (false);
+		//sentanL.SetActive (false);
+		//sentanR.SetActive (false);
+		//上の処理はミスったやつ
+		playerHP = 50;
+		colL.enabled = false;
+		colR.enabled = false;
 	
 	}
 
 	void Update()
 	{
+		foreach ( GameObject obj in GameObject.FindGameObjectsWithTag("Player")){
+			Debug.Log (obj.transform.position);
+
+		}
 		//Get input from controls
 		float z = Input.GetAxisRaw("Horizontal");
 		float x = -(Input.GetAxisRaw("Vertical"));
@@ -50,19 +62,36 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 
 		if (Input.GetButtonDown("Fire1"))//ここで攻撃してる
 		{
-			animator.SetTrigger("Attack1Trigger");
-			if (warrior == Warrior.Brute)
-				StartCoroutine (COStunPause(1.2f));
-			else if (warrior == Warrior.Sorceress)
-				StartCoroutine (COStunPause(1.2f));
-			else
-				StartCoroutine (COStunPause(.6f));
-			//この下の処理でスマホの先端を出現させる
-			sentanL.SetActive(true);
-			sentanR.SetActive (true);
+			Attack ();
 		}
 
+
 		UpdateMovement();  //update character position and facing
+
+		if (playerHP <= 0) 
+		{
+			//スコアをGameManagerのSetScore関数の引数に代入
+			GameManager.instance.SetScore(GameManager.instance.enemycount);
+			SceneManager.LoadScene ("Result");
+		}
+	}
+
+
+
+	void Attack(){
+		animator.SetTrigger("Attack1Trigger");
+		if (warrior == Warrior.Brute)
+			StartCoroutine (COStunPause(1.2f));
+		else if (warrior == Warrior.Sorceress)
+			StartCoroutine (COStunPause(1.2f));
+		else
+			StartCoroutine (COStunPause(.6f));
+		//この下の処理でスマホの先端を出現させる
+		//sentanL.SetActive(true);
+		//sentanR.SetActive (true);
+		colL.enabled = true;
+		colR.enabled = true;
+
 	}
 
 	public IEnumerator COStunPause(float pauseTime)
@@ -97,7 +126,9 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 	{
 		if (inputVec != Vector3.zero)
 		{
+			
 			transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(targetDirection), Time.deltaTime * rotationSpeed);
+			Debug.Log (transform.rotation);
 		}
 	}
 
@@ -107,7 +138,7 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 		Vector3 motion = inputVec;
 
 		//reduce input for diagonal movement
-		motion *= (Mathf.Abs(inputVec.x) == 1 && Mathf.Abs(inputVec.z) == 1)?.7f:1;
+		motion *= (Mathf.Abs(inputVec.x) == 1 && Mathf.Abs(inputVec.z) == 1)?0.7f:1;
 
 		RotateTowardMovementDirection();  
 		GetCameraRelativeMovement();  
@@ -124,5 +155,21 @@ public class WarriorAnimationDemoFREE : MonoBehaviour
 			else
 				StartCoroutine (COStunPause(.6f));
 		}
+	}
+
+	public void OffSentanCollider()
+	{
+		colL.enabled = false;
+		colR.enabled = false;
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "EnemySentan") {
+			playerHP -= 1;
+			Debug.Log (playerHP);
+
+		}
+		
 	}
 }
